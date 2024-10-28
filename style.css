@@ -1,0 +1,169 @@
+body{
+    background-color: #4341aa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.contanor{
+    
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px -4px 5px black;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.form-main{
+    border: 2px solid #4341aa;
+    padding: 90px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #7dbfcb;
+    box-shadow: 10px -5px 25px black;
+    
+    
+  
+}
+.form-main ul li{
+    background-color:#7dbfcb;
+   border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+form input{
+    background-color: #7dbfcb ;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    
+    padding: 8px;
+    
+    border-radius: 5px ;
+    width: 250px;
+}
+
+
+form button{
+
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #4341aa;
+font-size: 18px;
+    color: rgb(17, 14, 14);
+    font-weight: bold;
+    
+}
+
+form button:hover{
+    
+    background-color: #1a7a85;
+}
+form button:active{
+    border-top:  2px solid black;
+    border-right: 1px solid white;
+    border-left:  2px solid black;
+    border-bottom:1px solid white ;
+
+}
+h2{
+    color:#364a56;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        background-color: #4341aa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    
+    .contanor{
+        
+        
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .h1{
+        color: black;
+        font-weight: bold;
+        text-shadow: 5px -4px 5px black;
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+    }
+    .form-main{
+        border: 2px solid #7dbfcb;
+        padding: 90px;
+        text-align: center;
+        border-radius: 25px;
+        background-color: #7dbfcb;
+        box-shadow: 10px -5px 25px black;
+        
+        
+      
+    }
+    .form-main ul li{
+        background-color:#7dbfcb;
+       border-radius: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        list-style: none;
+    }
+    form input{
+        background-color:#7dbfcb ;
+        border: none;
+        outline: none;
+        margin-top: 10px;
+        
+        padding: 8px;
+        
+        border-radius: 5px ;
+        width: 250px;
+    }
+    
+    
+    form button{
+    
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding: 8px;
+        background-color: #6CBEC7;
+    font-size: 18px;
+        color: rgb(17, 14, 14);
+        font-weight: bold;
+        
+    }
+    
+    form button:hover{
+        
+        background-color: #1a7a85;
+    }
+    form button:active{
+        border-top:  2px solid black;
+        border-right: 1px solid white;
+        border-left:  2px solid black;
+        border-bottom:1px solid white ;
+    
+    }
+    h2{
+        color:#7dbfcb;
+    }
+  }
